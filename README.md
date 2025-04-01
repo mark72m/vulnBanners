@@ -5,19 +5,16 @@ decisions if our banner is vulnerable
 
 It might prove valuable to check to see if
 that file exists and the current user has read permissions to that file. If either
-condition fails, it would be useful to display an appropriate error message to
-the use
+condition fails, it would be useful to display an appropriate error message to use a for-loop
+to iterate through multiple elements. 
 
-use a for-loop
-to iterate through multiple elements. Consider, for example: if we wanted to
+Consider, for example: if we wanted to
 iterate through the entire /24 subnet of IP addresses for 192.168.95.1 through
 192.168.95.254, using a for-loop with the range from 1 to 255 allows us to
 print out the entire subnet.
 
-r script will test all 254 IP addresses on
-the 192.168.95.0/24 subnet with the ports offering telnet, SSH, smtp, http,
+The script will test all 254 IP addresses on the 192.168.95.0/24 subnet with the ports offering telnet, SSH, smtp, http,
 imap, and https services.
-
 
 To use this program first install python on your pc be it linux or windows operating system based on the environment of your choice.
 
